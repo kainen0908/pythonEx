@@ -14,4 +14,4 @@ def print_hello():
     
 call_10_times(print_hello)
 
-call_10_times((lambda : "hello"))
+call_10_times((lambda : print("hello")))
